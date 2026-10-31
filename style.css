@@ -1057,3 +1057,62 @@ img, video {
     text-align: center;
   }
 }
+
+/* Anti-Wrapping & Pill Optimization Standard */
+.nav-link, .nav-links a {
+  white-space: nowrap !important;
+  font-size: 0.88rem !important;
+  padding: 6px 4px !important;
+}
+.nav-links {
+  gap: 14px !important;
+  flex-wrap: nowrap !important;
+}
+.the-divine-nav {
+  max-width: 1240px !important;
+  gap: 12px !important;
+}
+.btn-nav-call, .btn-nav-wa {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+/* ABSOLUTE NO-WRAP & FLOATING PILL STANDARDS */
+.nav-header-wrapper, .nav-pill-wrapper {
+  padding: 0 16px !important;
+}
+.the-divine-nav, .nav-pill, .header-inner {
+  max-width: 1300px !important;
+  width: 100% !important;
+  gap: 14px !important;
+  box-sizing: border-box !important;
+}
+.nav-brand, .brand {
+  flex-shrink: 0 !important;
+}
+.nav-brand img, .brand img {
+  object-fit: contain !important;
+}
+.nav-links {
+  gap: 14px !important;
+  flex-shrink: 1 !important;
+  list-style: none !important;
+}
+.nav-link, .nav-links a, .nav-links li a {
+  white-space: nowrap !important;
+  font-size: 0.88rem !important;
+  word-break: keep-all !important;
+}
+.nav-actions, .nav-action {
+  flex-shrink: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+.btn-nav-call, .btn-nav-wa, .nav-btn, .btn-cta-pill {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  word-break: keep-all !important;
+}
