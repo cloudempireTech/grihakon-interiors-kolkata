@@ -1,0 +1,4 @@
+node_modules/
+*.log
+raw_*
+hero_raw.mp4

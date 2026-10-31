@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 100" width="520" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E7C4" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA8214" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143D30" />
+      <stop offset="100%" stop-color="#081E17" />
+    </linearGradient>
+  </defs>
+  <!-- Architectural Emblem: stylized roofline & geometric spatial corner -->
+  <rect x="10" y="10" width="80" height="80" rx="16" fill="url(#emeraldGrad)" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <path d="M 50 24 L 74 44 L 66 44 L 66 72 L 54 72 L 54 56 L 46 56 L 46 72 L 34 72 L 34 44 L 26 44 Z" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+  <circle cx="50" cy="46" r="3" fill="#D4AF37" />
+
+  <!-- Typography -->
+  <text x="108" y="52" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="34" font-weight="700" letter-spacing="2" fill="#FFFFFF">GRIHAKON</text>
+  <text x="110" y="78" font-family="'Montserrat', 'Helvetica Neue', sans-serif" font-size="12" font-weight="500" letter-spacing="4" fill="#D4AF37">INTERIOR DESIGN &amp; RENOVATION</text>
+</svg>
